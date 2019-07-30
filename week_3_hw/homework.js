@@ -46,6 +46,8 @@ console.log(monster);
 
 
 
+
+
 var attackPoints = {
     max: 0,
     orc: 0
@@ -88,9 +90,9 @@ console.log(attackPoints);
 function maxAttack() {
     let points = attackPoints.orc - attackPoints.max;
     console.log(points)
-    if (attackPoints.orc > 0) {
+    if (points > 0) {
         console.log('orc has ' + points + ' points.');
-    } else if (attackPoints.orc < 0){
+    } else {
         console.log('you have killed the orc');
     }
 } maxAttack();
