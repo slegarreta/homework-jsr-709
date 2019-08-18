@@ -5,10 +5,16 @@ body {
   background-size: cover;
   background-color: #343a40;
   text-align: center;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+div {
+  margin: 50px;
 }
 
 ul {
@@ -35,7 +41,7 @@ main {
 }
 
 form {
-  width: 100%; 
+  width: 100%;
   margin: 0 auto !important;
 }
 
